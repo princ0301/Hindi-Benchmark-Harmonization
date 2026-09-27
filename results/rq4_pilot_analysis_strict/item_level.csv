@@ -1,0 +1,253 @@
+model,item_id,instance_id,variety,task,gold,predicted,status,score,correct,raw_output
+Airavata,RC02,RC02::awadhi,awadhi,reading_comprehension,C,c,correct,1.0,1,C
+Airavata,RC01,RC01::bhojpuri,bhojpuri,reading_comprehension,B,a,incorrect,0.0,0,A
+Airavata,QA01,QA01::bhojpuri,bhojpuri,knowledge_qa,B,a,incorrect,0.0,0,ए
+Airavata,NLI02,NLI02::awadhi,awadhi,nli,C,a,incorrect,0.0,0,A
+Airavata,NLI02,NLI02::braj,braj,nli,C,a,incorrect,0.0,0,A
+Airavata,NLI01,NLI01::standard_hindi,standard_hindi,nli,A,a,correct,1.0,1,A
+Airavata,RC02,RC02::braj,braj,reading_comprehension,C,c,correct,1.0,1,C
+Airavata,RC02,RC02::bhojpuri,bhojpuri,reading_comprehension,C,c,correct,1.0,1,C
+Airavata,RE01,RE01::awadhi,awadhi,reasoning,B,b,correct,1.0,1,B
+Airavata,IF02,IF02::braj,braj,instruction_following,5,5,correct,1.0,1,5
+Airavata,RC01,RC01::standard_hindi,standard_hindi,reading_comprehension,B,b,correct,1.0,1,बी.
+Airavata,RC01,RC01::braj,braj,reading_comprehension,B,b,correct,1.0,1,B
+Airavata,IF01,IF01::bhojpuri,bhojpuri,instruction_following,YES,no,incorrect,0.0,0,NO
+Airavata,IF02,IF02::awadhi,awadhi,instruction_following,5,5,correct,1.0,1,5
+Airavata,QA01,QA01::standard_hindi,standard_hindi,knowledge_qa,B,a,incorrect,0.0,0,ए
+Airavata,QA01,QA01::awadhi,awadhi,knowledge_qa,B,a,incorrect,0.0,0,ए
+Airavata,RE02,RE02::bhojpuri,bhojpuri,reasoning,C,a,incorrect,0.0,0,A
+Airavata,IF02,IF02::bhojpuri,bhojpuri,instruction_following,5,5,correct,1.0,1,5
+Airavata,RE02,RE02::awadhi,awadhi,reasoning,C,b,incorrect,0.0,0,B
+Airavata,QA02,QA02::standard_hindi,standard_hindi,knowledge_qa,C,a,incorrect,0.0,0,A
+Airavata,QA02,QA02::braj,braj,knowledge_qa,C,d,incorrect,0.0,0,D
+Airavata,NLI02,NLI02::bhojpuri,bhojpuri,nli,C,a,incorrect,0.0,0,A
+Airavata,RE01,RE01::braj,braj,reasoning,B,b,correct,1.0,1,B
+Airavata,IF01,IF01::awadhi,awadhi,instruction_following,YES,no,incorrect,0.0,0,NO
+Airavata,IF01,IF01::braj,braj,instruction_following,YES,no,incorrect,0.0,0,NO
+Airavata,NLI02,NLI02::standard_hindi,standard_hindi,nli,C,c,correct,1.0,1,C
+Airavata,QA01,QA01::braj,braj,knowledge_qa,B,a,incorrect,0.0,0,ए
+Airavata,QA02,QA02::awadhi,awadhi,knowledge_qa,C,a,incorrect,0.0,0,A
+Airavata,RE02,RE02::standard_hindi,standard_hindi,reasoning,C,a,incorrect,0.0,0,A
+Airavata,QA02,QA02::bhojpuri,bhojpuri,knowledge_qa,C,b,incorrect,0.0,0,B
+Airavata,IF01,IF01::standard_hindi,standard_hindi,instruction_following,YES,no,incorrect,0.0,0,NO
+Airavata,RC02,RC02::standard_hindi,standard_hindi,reading_comprehension,C,c,correct,1.0,1,C
+Airavata,NLI01,NLI01::awadhi,awadhi,nli,A,a,correct,1.0,1,A
+Airavata,RE02,RE02::braj,braj,reasoning,C,a,incorrect,0.0,0,A
+Airavata,RE01,RE01::standard_hindi,standard_hindi,reasoning,B,a,incorrect,0.0,0,A
+Airavata,RE01,RE01::bhojpuri,bhojpuri,reasoning,B,b,correct,1.0,1,B
+Airavata,IF02,IF02::standard_hindi,standard_hindi,instruction_following,5,5,correct,1.0,1,5
+Airavata,NLI01,NLI01::braj,braj,nli,A,a,correct,1.0,1,A
+Airavata,RC01,RC01::awadhi,awadhi,reading_comprehension,B,b,correct,1.0,1,B
+Airavata,NLI01,NLI01::bhojpuri,bhojpuri,nli,A,a,correct,1.0,1,A
+DeepSeek Chat,RC02,RC02::awadhi,awadhi,reading_comprehension,C,c,correct,1.0,1,C
+DeepSeek Chat,RC01,RC01::bhojpuri,bhojpuri,reading_comprehension,B,b,correct,1.0,1,B
+DeepSeek Chat,QA01,QA01::bhojpuri,bhojpuri,knowledge_qa,B,b,correct,1.0,1,B
+DeepSeek Chat,NLI02,NLI02::awadhi,awadhi,nli,C,c,correct,1.0,1,C
+DeepSeek Chat,NLI02,NLI02::braj,braj,nli,C,c,correct,1.0,1,C
+DeepSeek Chat,NLI01,NLI01::standard_hindi,standard_hindi,nli,A,a,correct,1.0,1,A
+DeepSeek Chat,RC02,RC02::braj,braj,reading_comprehension,C,c,correct,1.0,1,C
+DeepSeek Chat,RC02,RC02::bhojpuri,bhojpuri,reading_comprehension,C,c,correct,1.0,1,C
+DeepSeek Chat,RE01,RE01::awadhi,awadhi,reasoning,B,,unparseable,0.0,0,"Let's break down the problem step by step to find out how many mangoes Ravi has left.
+
+1. **Initial number of mangoes Ravi has:**
+   - Ravi has 5 mangoes initially.
+     - **Ravi's mangoes = 5**
+
+2. **Mangoes given to his brother:**
+   - He gives 2 mangoes to his brother.
+     - **Mangoes given away = 2**
+
+3. **Calculate the remaining mangoes:**
+   - Subtract the mangoes given away from the initial number.
+     - **Remaining mangoes = Initial mangoes -"
+DeepSeek Chat,IF02,IF02::braj,braj,instruction_following,5,5,correct,1.0,1,5
+DeepSeek Chat,RC01,RC01::standard_hindi,standard_hindi,reading_comprehension,B,b,correct,1.0,1,B
+DeepSeek Chat,RC01,RC01::braj,braj,reading_comprehension,B,b,correct,1.0,1,B
+DeepSeek Chat,IF01,IF01::bhojpuri,bhojpuri,instruction_following,YES,yes,correct,1.0,1,YES
+DeepSeek Chat,IF02,IF02::awadhi,awadhi,instruction_following,5,5,correct,1.0,1,5
+DeepSeek Chat,QA01,QA01::standard_hindi,standard_hindi,knowledge_qa,B,b,correct,1.0,1,B
+DeepSeek Chat,QA01,QA01::awadhi,awadhi,knowledge_qa,B,b,correct,1.0,1,B
+DeepSeek Chat,RE02,RE02::bhojpuri,bhojpuri,reasoning,C,c,correct,1.0,1,C
+DeepSeek Chat,IF02,IF02::bhojpuri,bhojpuri,instruction_following,5,5,correct,1.0,1,5
+DeepSeek Chat,RE02,RE02::awadhi,awadhi,reasoning,C,c,correct,1.0,1,C
+DeepSeek Chat,QA02,QA02::standard_hindi,standard_hindi,knowledge_qa,C,c,correct,1.0,1,C
+DeepSeek Chat,QA02,QA02::braj,braj,knowledge_qa,C,c,correct,1.0,1,C
+DeepSeek Chat,NLI02,NLI02::bhojpuri,bhojpuri,nli,C,c,correct,1.0,1,C
+DeepSeek Chat,RE01,RE01::braj,braj,reasoning,B,b,correct,1.0,1,B
+DeepSeek Chat,IF01,IF01::awadhi,awadhi,instruction_following,YES,yes,correct,1.0,1,YES
+DeepSeek Chat,IF01,IF01::braj,braj,instruction_following,YES,yes,correct,1.0,1,YES
+DeepSeek Chat,NLI02,NLI02::standard_hindi,standard_hindi,nli,C,c,correct,1.0,1,C
+DeepSeek Chat,QA01,QA01::braj,braj,knowledge_qa,B,b,correct,1.0,1,B
+DeepSeek Chat,QA02,QA02::awadhi,awadhi,knowledge_qa,C,c,correct,1.0,1,C
+DeepSeek Chat,RE02,RE02::standard_hindi,standard_hindi,reasoning,C,c,correct,1.0,1,C
+DeepSeek Chat,QA02,QA02::bhojpuri,bhojpuri,knowledge_qa,C,c,correct,1.0,1,C
+DeepSeek Chat,IF01,IF01::standard_hindi,standard_hindi,instruction_following,YES,yes,correct,1.0,1,YES
+DeepSeek Chat,RC02,RC02::standard_hindi,standard_hindi,reading_comprehension,C,c,correct,1.0,1,C
+DeepSeek Chat,NLI01,NLI01::awadhi,awadhi,nli,A,a,correct,1.0,1,A
+DeepSeek Chat,RE02,RE02::braj,braj,reasoning,C,c,correct,1.0,1,C
+DeepSeek Chat,RE01,RE01::standard_hindi,standard_hindi,reasoning,B,b,correct,1.0,1,B
+DeepSeek Chat,RE01,RE01::bhojpuri,bhojpuri,reasoning,B,b,correct,1.0,1,B
+DeepSeek Chat,IF02,IF02::standard_hindi,standard_hindi,instruction_following,5,5,correct,1.0,1,5
+DeepSeek Chat,NLI01,NLI01::braj,braj,nli,A,a,correct,1.0,1,A
+DeepSeek Chat,RC01,RC01::awadhi,awadhi,reading_comprehension,B,b,correct,1.0,1,B
+DeepSeek Chat,NLI01,NLI01::bhojpuri,bhojpuri,nli,A,a,correct,1.0,1,A
+Gemma 2 9B IT,RC02,RC02::awadhi,awadhi,reading_comprehension,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,RC01,RC01::bhojpuri,bhojpuri,reading_comprehension,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,QA01,QA01::bhojpuri,bhojpuri,knowledge_qa,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,NLI02,NLI02::awadhi,awadhi,nli,C,,unparseable,0.0,0,"A. Entailment 
+"
+Gemma 2 9B IT,NLI02,NLI02::braj,braj,nli,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,NLI01,NLI01::standard_hindi,standard_hindi,nli,A,,unparseable,0.0,0,"A. Entailment 
+"
+Gemma 2 9B IT,RC02,RC02::braj,braj,reading_comprehension,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,RC02,RC02::bhojpuri,bhojpuri,reading_comprehension,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,RE01,RE01::awadhi,awadhi,reasoning,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,IF02,IF02::braj,braj,instruction_following,5,5,correct,1.0,1,"5 
+"
+Gemma 2 9B IT,RC01,RC01::standard_hindi,standard_hindi,reading_comprehension,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,RC01,RC01::braj,braj,reading_comprehension,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,IF01,IF01::bhojpuri,bhojpuri,instruction_following,YES,yes,correct,1.0,1,"YES 
+"
+Gemma 2 9B IT,IF02,IF02::awadhi,awadhi,instruction_following,5,5,correct,1.0,1,"5 
+"
+Gemma 2 9B IT,QA01,QA01::standard_hindi,standard_hindi,knowledge_qa,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,QA01,QA01::awadhi,awadhi,knowledge_qa,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,RE02,RE02::bhojpuri,bhojpuri,reasoning,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,IF02,IF02::bhojpuri,bhojpuri,instruction_following,5,5,correct,1.0,1,"5 
+"
+Gemma 2 9B IT,RE02,RE02::awadhi,awadhi,reasoning,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,QA02,QA02::standard_hindi,standard_hindi,knowledge_qa,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,QA02,QA02::braj,braj,knowledge_qa,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,NLI02,NLI02::bhojpuri,bhojpuri,nli,C,,unparseable,0.0,0,"A. Entailment 
+"
+Gemma 2 9B IT,RE01,RE01::braj,braj,reasoning,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,IF01,IF01::awadhi,awadhi,instruction_following,YES,yes,correct,1.0,1,"YES 
+"
+Gemma 2 9B IT,IF01,IF01::braj,braj,instruction_following,YES,yes,correct,1.0,1,"YES 
+"
+Gemma 2 9B IT,NLI02,NLI02::standard_hindi,standard_hindi,nli,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,QA01,QA01::braj,braj,knowledge_qa,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,QA02,QA02::awadhi,awadhi,knowledge_qa,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,RE02,RE02::standard_hindi,standard_hindi,reasoning,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,QA02,QA02::bhojpuri,bhojpuri,knowledge_qa,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,IF01,IF01::standard_hindi,standard_hindi,instruction_following,YES,yes,correct,1.0,1,"YES 
+"
+Gemma 2 9B IT,RC02,RC02::standard_hindi,standard_hindi,reading_comprehension,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,NLI01,NLI01::awadhi,awadhi,nli,A,,unparseable,0.0,0,"A. Entailment 
+"
+Gemma 2 9B IT,RE02,RE02::braj,braj,reasoning,C,c,correct,1.0,1,"C 
+"
+Gemma 2 9B IT,RE01,RE01::standard_hindi,standard_hindi,reasoning,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,RE01,RE01::bhojpuri,bhojpuri,reasoning,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,IF02,IF02::standard_hindi,standard_hindi,instruction_following,5,5,correct,1.0,1,"5 
+"
+Gemma 2 9B IT,NLI01,NLI01::braj,braj,nli,A,a,correct,1.0,1,"A 
+"
+Gemma 2 9B IT,RC01,RC01::awadhi,awadhi,reading_comprehension,B,b,correct,1.0,1,"B 
+"
+Gemma 2 9B IT,NLI01,NLI01::bhojpuri,bhojpuri,nli,A,,unparseable,0.0,0,"A. Entailment 
+"
+Llama 3.1 8B Instruct,RC02,RC02::awadhi,awadhi,reading_comprehension,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,RC01,RC01::bhojpuri,bhojpuri,reading_comprehension,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,QA01,QA01::bhojpuri,bhojpuri,knowledge_qa,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,NLI02,NLI02::awadhi,awadhi,nli,C,a,incorrect,0.0,0,A
+Llama 3.1 8B Instruct,NLI02,NLI02::braj,braj,nli,C,a,incorrect,0.0,0,A
+Llama 3.1 8B Instruct,NLI01,NLI01::standard_hindi,standard_hindi,nli,A,a,correct,1.0,1,A
+Llama 3.1 8B Instruct,RC02,RC02::braj,braj,reading_comprehension,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,RC02,RC02::bhojpuri,bhojpuri,reading_comprehension,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,RE01,RE01::awadhi,awadhi,reasoning,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,IF02,IF02::braj,braj,instruction_following,5,2,incorrect,0.0,0,2
+Llama 3.1 8B Instruct,RC01,RC01::standard_hindi,standard_hindi,reading_comprehension,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,RC01,RC01::braj,braj,reading_comprehension,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,IF01,IF01::bhojpuri,bhojpuri,instruction_following,YES,no,incorrect,0.0,0,NO
+Llama 3.1 8B Instruct,IF02,IF02::awadhi,awadhi,instruction_following,5,2,incorrect,0.0,0,2
+Llama 3.1 8B Instruct,QA01,QA01::standard_hindi,standard_hindi,knowledge_qa,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,QA01,QA01::awadhi,awadhi,knowledge_qa,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,RE02,RE02::bhojpuri,bhojpuri,reasoning,C,b,incorrect,0.0,0,B
+Llama 3.1 8B Instruct,IF02,IF02::bhojpuri,bhojpuri,instruction_following,5,2,incorrect,0.0,0,2
+Llama 3.1 8B Instruct,RE02,RE02::awadhi,awadhi,reasoning,C,b,incorrect,0.0,0,B
+Llama 3.1 8B Instruct,QA02,QA02::standard_hindi,standard_hindi,knowledge_qa,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,QA02,QA02::braj,braj,knowledge_qa,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,NLI02,NLI02::bhojpuri,bhojpuri,nli,C,a,incorrect,0.0,0,A
+Llama 3.1 8B Instruct,RE01,RE01::braj,braj,reasoning,B,c,incorrect,0.0,0,C
+Llama 3.1 8B Instruct,IF01,IF01::awadhi,awadhi,instruction_following,YES,yes,correct,1.0,1,YES
+Llama 3.1 8B Instruct,IF01,IF01::braj,braj,instruction_following,YES,yes,correct,1.0,1,YES
+Llama 3.1 8B Instruct,NLI02,NLI02::standard_hindi,standard_hindi,nli,C,b,incorrect,0.0,0,B
+Llama 3.1 8B Instruct,QA01,QA01::braj,braj,knowledge_qa,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,QA02,QA02::awadhi,awadhi,knowledge_qa,C,c,correct,1.0,1,C.
+Llama 3.1 8B Instruct,RE02,RE02::standard_hindi,standard_hindi,reasoning,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,QA02,QA02::bhojpuri,bhojpuri,knowledge_qa,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,IF01,IF01::standard_hindi,standard_hindi,instruction_following,YES,yes,correct,1.0,1,हाँ
+Llama 3.1 8B Instruct,RC02,RC02::standard_hindi,standard_hindi,reading_comprehension,C,c,correct,1.0,1,C
+Llama 3.1 8B Instruct,NLI01,NLI01::awadhi,awadhi,nli,A,a,correct,1.0,1,A
+Llama 3.1 8B Instruct,RE02,RE02::braj,braj,reasoning,C,b,incorrect,0.0,0,B
+Llama 3.1 8B Instruct,RE01,RE01::standard_hindi,standard_hindi,reasoning,B,c,incorrect,0.0,0,C
+Llama 3.1 8B Instruct,RE01,RE01::bhojpuri,bhojpuri,reasoning,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,IF02,IF02::standard_hindi,standard_hindi,instruction_following,5,2,incorrect,0.0,0,2
+Llama 3.1 8B Instruct,NLI01,NLI01::braj,braj,nli,A,a,correct,1.0,1,A
+Llama 3.1 8B Instruct,RC01,RC01::awadhi,awadhi,reading_comprehension,B,b,correct,1.0,1,B
+Llama 3.1 8B Instruct,NLI01,NLI01::bhojpuri,bhojpuri,nli,A,a,correct,1.0,1,A
+GPT-OSS-120B,RC02,RC02::awadhi,awadhi,reading_comprehension,C,c,correct,1.0,1,C
+GPT-OSS-120B,RC01,RC01::bhojpuri,bhojpuri,reading_comprehension,B,b,correct,1.0,1,B
+GPT-OSS-120B,QA01,QA01::bhojpuri,bhojpuri,knowledge_qa,B,b,correct,1.0,1,B
+GPT-OSS-120B,NLI02,NLI02::awadhi,awadhi,nli,C,c,correct,1.0,1,C
+GPT-OSS-120B,NLI02,NLI02::braj,braj,nli,C,c,correct,1.0,1,C
+GPT-OSS-120B,NLI01,NLI01::standard_hindi,standard_hindi,nli,A,a,correct,1.0,1,A
+GPT-OSS-120B,RC02,RC02::braj,braj,reading_comprehension,C,c,correct,1.0,1,C
+GPT-OSS-120B,RC02,RC02::bhojpuri,bhojpuri,reading_comprehension,C,c,correct,1.0,1,C
+GPT-OSS-120B,RE01,RE01::awadhi,awadhi,reasoning,B,b,correct,1.0,1,B
+GPT-OSS-120B,IF02,IF02::braj,braj,instruction_following,5,5,correct,1.0,1,5
+GPT-OSS-120B,RC01,RC01::standard_hindi,standard_hindi,reading_comprehension,B,b,correct,1.0,1,B
+GPT-OSS-120B,RC01,RC01::braj,braj,reading_comprehension,B,b,correct,1.0,1,B
+GPT-OSS-120B,IF01,IF01::bhojpuri,bhojpuri,instruction_following,YES,yes,correct,1.0,1,YES
+GPT-OSS-120B,IF02,IF02::awadhi,awadhi,instruction_following,5,5,correct,1.0,1,5
+GPT-OSS-120B,QA01,QA01::standard_hindi,standard_hindi,knowledge_qa,B,b,correct,1.0,1,B
+GPT-OSS-120B,QA01,QA01::awadhi,awadhi,knowledge_qa,B,b,correct,1.0,1,B
+GPT-OSS-120B,RE02,RE02::bhojpuri,bhojpuri,reasoning,C,c,correct,1.0,1,C
+GPT-OSS-120B,IF02,IF02::bhojpuri,bhojpuri,instruction_following,5,5,correct,1.0,1,5
+GPT-OSS-120B,RE02,RE02::awadhi,awadhi,reasoning,C,c,correct,1.0,1,C
+GPT-OSS-120B,QA02,QA02::standard_hindi,standard_hindi,knowledge_qa,C,c,correct,1.0,1,C
+GPT-OSS-120B,QA02,QA02::braj,braj,knowledge_qa,C,c,correct,1.0,1,C
+GPT-OSS-120B,NLI02,NLI02::bhojpuri,bhojpuri,nli,C,c,correct,1.0,1,C
+GPT-OSS-120B,RE01,RE01::braj,braj,reasoning,B,b,correct,1.0,1,B
+GPT-OSS-120B,IF01,IF01::awadhi,awadhi,instruction_following,YES,yes,correct,1.0,1,YES
+GPT-OSS-120B,IF01,IF01::braj,braj,instruction_following,YES,yes,correct,1.0,1,YES
+GPT-OSS-120B,NLI02,NLI02::standard_hindi,standard_hindi,nli,C,c,correct,1.0,1,C
+GPT-OSS-120B,QA01,QA01::braj,braj,knowledge_qa,B,b,correct,1.0,1,B
+GPT-OSS-120B,QA02,QA02::awadhi,awadhi,knowledge_qa,C,c,correct,1.0,1,C
+GPT-OSS-120B,RE02,RE02::standard_hindi,standard_hindi,reasoning,C,c,correct,1.0,1,C
+GPT-OSS-120B,QA02,QA02::bhojpuri,bhojpuri,knowledge_qa,C,c,correct,1.0,1,C
+GPT-OSS-120B,IF01,IF01::standard_hindi,standard_hindi,instruction_following,YES,yes,correct,1.0,1,YES
+GPT-OSS-120B,RC02,RC02::standard_hindi,standard_hindi,reading_comprehension,C,c,correct,1.0,1,C
+GPT-OSS-120B,NLI01,NLI01::awadhi,awadhi,nli,A,a,correct,1.0,1,A
+GPT-OSS-120B,RE02,RE02::braj,braj,reasoning,C,c,correct,1.0,1,C
+GPT-OSS-120B,RE01,RE01::standard_hindi,standard_hindi,reasoning,B,b,correct,1.0,1,B
+GPT-OSS-120B,RE01,RE01::bhojpuri,bhojpuri,reasoning,B,b,correct,1.0,1,B
+GPT-OSS-120B,IF02,IF02::standard_hindi,standard_hindi,instruction_following,5,5,correct,1.0,1,5
+GPT-OSS-120B,NLI01,NLI01::braj,braj,nli,A,a,correct,1.0,1,A
+GPT-OSS-120B,RC01,RC01::awadhi,awadhi,reading_comprehension,B,b,correct,1.0,1,B
+GPT-OSS-120B,NLI01,NLI01::bhojpuri,bhojpuri,nli,A,a,correct,1.0,1,A

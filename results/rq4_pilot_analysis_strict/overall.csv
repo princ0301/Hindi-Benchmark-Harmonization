@@ -1,0 +1,6 @@
+model,correct,total,unparseable,accuracy,accuracy_percent,unparseable_percent
+Airavata,19,40,0,0.475,47.5,0.0
+DeepSeek Chat,39,40,1,0.975,97.5,2.5
+GPT-OSS-120B,40,40,0,1.0,100.0,0.0
+Gemma 2 9B IT,35,40,5,0.875,87.5,12.5
+Llama 3.1 8B Instruct,26,40,0,0.65,65.0,0.0
