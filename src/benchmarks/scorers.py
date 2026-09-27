@@ -243,6 +243,66 @@ def score_ifeval(model_output: str, instruction_id_list: list, kwargs_list: list
     return float(all(is_following_list))
 
 
+# ---------------------------------------------------------------------------
+# RQ4: Dialectal / regional Hindi benchmark
+# ---------------------------------------------------------------------------
+
+RQ4_YES_NO = {"yes", "no"}
+RQ4_MCQ = {"a", "b", "c", "d"}
+
+
+def _rq4_clean_output(model_output: str) -> str:
+    """Remove reasoning traces and common markdown wrappers."""
+    cleaned = strip_reasoning_trace(model_output).strip()
+    cleaned = re.sub(r"^```(?:text|txt)?\s*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*```$", "", cleaned).strip()
+    return cleaned
+
+
+def _rq4_extract_answer(model_output: str, gold: str) -> str | None:
+    """Extract an answer according to the gold-answer type used by RQ4."""
+    cleaned = _rq4_clean_output(model_output)
+    gold_clean = gold.strip().lower()
+
+    # Deterministic YES/NO items.
+    if gold_clean in RQ4_YES_NO:
+        matches = re.findall(r"\b(yes|no)\b", cleaned, flags=re.IGNORECASE)
+        return matches[-1].lower() if matches else None
+
+    # Deterministic numeric items.
+    if re.fullmatch(r"\d+", gold_clean):
+        numbers = re.findall(r"\b\d+\b", cleaned)
+        return numbers[-1] if numbers else None
+
+    # RQ4 MCQ answers are A/B/C/D. Prefer an explicit final answer marker.
+    if gold_clean in RQ4_MCQ:
+        marker = re.findall(
+            r"(?:answer|उत्तर|final answer)\s*[:\-]?\s*\(?([ABCD])\)?\b",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
+        if marker:
+            return marker[-1].lower()
+
+        # If the model follows the instruction and returns a bare option,
+        # accept a single A/B/C/D token. Otherwise, use the final standalone
+        # option token, which is safer than matching letters inside words.
+        tokens = re.findall(r"\b([ABCD])\b", cleaned, flags=re.IGNORECASE)
+        return tokens[-1].lower() if tokens else None
+
+    return cleaned.lower()
+
+
+def score_rq4_dialect(model_output: str, gold: str) -> float:
+    predicted = _rq4_extract_answer(model_output, gold)
+    if predicted is None:
+        return 0.0
+    return float(predicted == gold.strip().lower())
+
+
+SCORERS["rq4_dialect"] = score_rq4_dialect
+
+
 JUDGE_PROMPT_TEMPLATE = """
 
 Evaluate the quality of the model's responses to questions from a benchmark dataset on a scale of 1-5 (score can be a decimal fraction format number) across the following parameters:
