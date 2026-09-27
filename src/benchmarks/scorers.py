@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import collections
 import json
 import re
@@ -357,7 +356,6 @@ def score_item(benchmark: str, model_output: str, gold) -> float:
     if benchmark not in SCORERS:
         raise ValueError(f"no scorer registered for benchmark '{benchmark}'")
     return SCORERS[benchmark](model_output, gold)
-=======
 import collections
 import json
 import re
@@ -982,4 +980,3 @@ def score_item(benchmark: str, model_output: str, gold) -> float:
     if benchmark not in SCORERS:
         raise ValueError(f"no scorer registered for benchmark '{benchmark}'")
     return SCORERS[benchmark](model_output, gold)
->>>>>>> 6c4e8d7 (rq4)
