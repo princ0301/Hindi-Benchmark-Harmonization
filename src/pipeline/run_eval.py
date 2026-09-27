@@ -7,7 +7,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from src.benchmarks import bfcl, chatrag, gsm8k, ifeval, indicquest, indicsentiment, indicxnli, milu
+from src.benchmarks import bfcl, chatrag, gsm8k, ifeval, indicquest, indicsentiment, indicxnli, milu, rq4_dialect
 from src.benchmarks.loader import load
 from src.benchmarks.scorers import score_bfcl, score_ifeval, score_item, score_llm_judge
 from src.models.api_clients import GeminiClient, GroqClient, NvidiaNimClient, OllamaClient, OpenRouterClient, TogetherClient
@@ -30,12 +30,12 @@ SAMPLE_SIZES = {
     "gsm8k_hi": 200,
     "milu_hi": 200,
     "indicquest_hi": 200,
-    "bfcl_hi": 999999,   # run full dataset; capped automatically to actual size below
+    "bfcl_hi": 999999,
     "ifeval_hi": 200,
-    # "chatrag_hi": 200,  # excluded: cost/rate-limit constraints, see paper Limitations
     "indicsentiment_bn": 200,
     "indicxnli_bn": 200,
     "milu_bn": 200,
+    "rq4_dialect": 40,
 }
 
 
@@ -45,7 +45,6 @@ def get_judge_client():
 
 def get_models():
     return [
-        # GeminiClient(),  # paused: hit free-tier quota limit, resume later
         GroqClient(),
         OpenRouterClient(model_name="deepseek/deepseek-chat"),
         RemoteGPUClient(hf_model_id="meta-llama/Llama-3.1-8B-Instruct"),
@@ -62,6 +61,7 @@ GENERATION_SETTINGS = {
     "indicquest_hi": {"max_new_tokens": 1024},
     "ifeval_hi": {"max_new_tokens": 2048},
     "chatrag_hi": {"max_new_tokens": 1024},
+    "rq4_dialect": {"max_new_tokens": 128},
 }
 DEFAULT_MAX_NEW_TOKENS = 512
 
@@ -89,9 +89,7 @@ def run_model(benchmark_name: str, model, items) -> float:
 
     judge_client = get_judge_client() if benchmark_name in JUDGE_BASED_BENCHMARKS else None
 
-    with open(raw_path, "a", newline="", encoding="utf-8") as raw_f, \
-         open(scores_path, "a", newline="", encoding="utf-8") as scores_f:
-
+    with open(raw_path, "a", newline="", encoding="utf-8") as raw_f, open(scores_path, "a", newline="", encoding="utf-8") as scores_f:
         raw_writer = csv.writer(raw_f)
         scores_writer = csv.writer(scores_f)
 
