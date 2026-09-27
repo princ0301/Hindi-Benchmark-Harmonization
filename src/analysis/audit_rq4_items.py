@@ -3,11 +3,11 @@ import pandas as pd
 
 
 INPUT = Path(
-    "results/rq4_pilot_analysis/item_level.csv"
+    "results/rq4_pilot_analysis_strict/item_level.csv"
 )
 
 OUT_DIR = Path(
-    "results/rq4_pilot_analysis/item_audit"
+    "results/rq4_pilot_analysis_strict/item_audit"
 )
 
 VARIETIES = [

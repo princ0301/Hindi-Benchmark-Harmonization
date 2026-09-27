@@ -1,0 +1,102 @@
+model,item_id,task,awadhi,bhojpuri,braj,standard_hindi,pattern,num_correct,pattern_type,variety,gold,correct,raw_output
+Airavata,IF06,instruction_following,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,standard_hindi,A,1,A.
+Airavata,IF06,instruction_following,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,bhojpuri,A,1,A.
+Airavata,IF06,instruction_following,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,awadhi,A,1,A.
+Airavata,IF06,instruction_following,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,braj,A,0,B.
+Airavata,NLI02,nli,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,braj,C,0,A
+Airavata,NLI02,nli,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,bhojpuri,C,0,A
+Airavata,NLI02,nli,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,standard_hindi,C,1,C
+Airavata,NLI02,nli,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,awadhi,C,0,A
+Airavata,NLI06,nli,1,0,0,0,0 | 0 | 0 | 1,1,standard_failure_dialect_success,bhojpuri,A,0,B
+Airavata,NLI06,nli,1,0,0,0,0 | 0 | 0 | 1,1,standard_failure_dialect_success,awadhi,A,1,A
+Airavata,NLI06,nli,1,0,0,0,0 | 0 | 0 | 1,1,standard_failure_dialect_success,braj,A,0,B
+Airavata,NLI06,nli,1,0,0,0,0 | 0 | 0 | 1,1,standard_failure_dialect_success,standard_hindi,A,0,B
+Airavata,RC01,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,awadhi,B,1,B
+Airavata,RC01,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,standard_hindi,B,1,बी.
+Airavata,RC01,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,braj,B,1,B
+Airavata,RC01,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,bhojpuri,B,0,A
+Airavata,RE01,reasoning,1,1,1,0,0 | 1 | 1 | 1,3,standard_failure_dialect_success,awadhi,B,1,B
+Airavata,RE01,reasoning,1,1,1,0,0 | 1 | 1 | 1,3,standard_failure_dialect_success,bhojpuri,B,1,B
+Airavata,RE01,reasoning,1,1,1,0,0 | 1 | 1 | 1,3,standard_failure_dialect_success,standard_hindi,B,0,A
+Airavata,RE01,reasoning,1,1,1,0,0 | 1 | 1 | 1,3,standard_failure_dialect_success,braj,B,1,B
+Airavata,RE05,reasoning,0,1,0,0,0 | 1 | 0 | 0,1,standard_failure_dialect_success,awadhi,B,0,A
+Airavata,RE05,reasoning,0,1,0,0,0 | 1 | 0 | 0,1,standard_failure_dialect_success,braj,B,0,A
+Airavata,RE05,reasoning,0,1,0,0,0 | 1 | 0 | 0,1,standard_failure_dialect_success,bhojpuri,B,1,B
+Airavata,RE05,reasoning,0,1,0,0,0 | 1 | 0 | 0,1,standard_failure_dialect_success,standard_hindi,B,0,A
+DeepSeek Chat,IF03,instruction_following,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,braj,A,0,YES
+DeepSeek Chat,IF03,instruction_following,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,awadhi,A,0,YES
+DeepSeek Chat,IF03,instruction_following,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,bhojpuri,A,1,A
+DeepSeek Chat,IF03,instruction_following,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,standard_hindi,A,1,A
+DeepSeek Chat,IF06,instruction_following,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,standard_hindi,A,1,A
+DeepSeek Chat,IF06,instruction_following,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,bhojpuri,A,0,YES
+DeepSeek Chat,IF06,instruction_following,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,awadhi,A,0,YES
+DeepSeek Chat,IF06,instruction_following,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,braj,A,0,YES
+DeepSeek Chat,RC06,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,braj,B,1,B
+DeepSeek Chat,RC06,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,bhojpuri,B,0,"Let's break down the problem step by step to understand and find the correct answer.
+
+### Context in English:
+1. **Initial Statement**: ""Neha had three pencils.""
+   - This means Neha started with 3 pencils.
+
+2. **Action**: ""She gave one pencil to her sister.""
+   - Neha gave away 1 pencil to her sister.
+
+### Question in English:
+""How many pencils does Neha have left?""
+
+### Calculation:
+- **Initial pencils**: 3
+- **Pencils given away**: 1
+- **Pencils remaining**: 3 - 1 = 2
+
+### Options"
+DeepSeek Chat,RC06,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,awadhi,B,1,B
+DeepSeek Chat,RC06,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,standard_hindi,B,1,B
+DeepSeek Chat,RE01,reasoning,0,1,1,1,1 | 1 | 1 | 0,3,standard_correct_dialect_failure,awadhi,B,0,"Let's break down the problem step by step to find out how many mangoes Ravi has left.
+
+1. **Initial number of mangoes Ravi has:**
+   - Ravi has 5 mangoes initially.
+   
+2. **Mangoes given to his brother:**
+   - He gives 2 mangoes to his brother.
+
+3. **Calculation of remaining mangoes:**
+   - Subtract the mangoes given away from the initial count.
+   - \( 5 \text{ (initial)} - 2 \text{ (given)} = 3 \text{ mangoes remaining} \)
+
+**Answer:**"
+DeepSeek Chat,RE01,reasoning,0,1,1,1,1 | 1 | 1 | 0,3,standard_correct_dialect_failure,bhojpuri,B,1,B
+DeepSeek Chat,RE01,reasoning,0,1,1,1,1 | 1 | 1 | 0,3,standard_correct_dialect_failure,standard_hindi,B,1,B
+DeepSeek Chat,RE01,reasoning,0,1,1,1,1 | 1 | 1 | 0,3,standard_correct_dialect_failure,braj,B,1,B
+GPT-OSS-120B,RC04,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,bhojpuri,B,1,B
+GPT-OSS-120B,RC04,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,standard_hindi,B,1,B
+GPT-OSS-120B,RC04,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,braj,B,0,
+GPT-OSS-120B,RC04,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,awadhi,B,1,B
+Gemma 2 9B IT,NLI02,nli,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure,braj,C,1,"C 
+"
+Gemma 2 9B IT,NLI02,nli,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure,bhojpuri,C,0,"A. Entailment 
+"
+Gemma 2 9B IT,NLI02,nli,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure,standard_hindi,C,1,"C 
+"
+Gemma 2 9B IT,NLI02,nli,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure,awadhi,C,0,"A. Entailment 
+"
+Llama 3.1 8B Instruct,IF01,instruction_following,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,awadhi,YES,1,YES
+Llama 3.1 8B Instruct,IF01,instruction_following,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,bhojpuri,YES,0,NO
+Llama 3.1 8B Instruct,IF01,instruction_following,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,braj,YES,1,YES
+Llama 3.1 8B Instruct,IF01,instruction_following,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,standard_hindi,YES,1,हाँ
+Llama 3.1 8B Instruct,RC06,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,braj,B,0,C
+Llama 3.1 8B Instruct,RC06,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,bhojpuri,B,1,B
+Llama 3.1 8B Instruct,RC06,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,awadhi,B,1,B
+Llama 3.1 8B Instruct,RC06,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,standard_hindi,B,1,B
+Llama 3.1 8B Instruct,RE01,reasoning,1,1,0,0,0 | 1 | 0 | 1,2,standard_failure_dialect_success,awadhi,B,1,B
+Llama 3.1 8B Instruct,RE01,reasoning,1,1,0,0,0 | 1 | 0 | 1,2,standard_failure_dialect_success,bhojpuri,B,1,B
+Llama 3.1 8B Instruct,RE01,reasoning,1,1,0,0,0 | 1 | 0 | 1,2,standard_failure_dialect_success,standard_hindi,B,0,C
+Llama 3.1 8B Instruct,RE01,reasoning,1,1,0,0,0 | 1 | 0 | 1,2,standard_failure_dialect_success,braj,B,0,C
+Llama 3.1 8B Instruct,RE02,reasoning,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,awadhi,C,0,B
+Llama 3.1 8B Instruct,RE02,reasoning,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,standard_hindi,C,1,C
+Llama 3.1 8B Instruct,RE02,reasoning,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,bhojpuri,C,0,B
+Llama 3.1 8B Instruct,RE02,reasoning,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,braj,C,0,B
+Llama 3.1 8B Instruct,RE03,reasoning,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,awadhi,C,0,B
+Llama 3.1 8B Instruct,RE03,reasoning,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,bhojpuri,C,1,C
+Llama 3.1 8B Instruct,RE03,reasoning,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,braj,C,0,B
+Llama 3.1 8B Instruct,RE03,reasoning,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,standard_hindi,C,1,C

@@ -1,0 +1,30 @@
+model,item_id,task,transition,dialect
+Airavata,IF06,instruction_following,standard_correct_to_dialect_wrong,braj
+Airavata,NLI02,nli,standard_correct_to_dialect_wrong,bhojpuri
+Airavata,NLI02,nli,standard_correct_to_dialect_wrong,braj
+Airavata,NLI02,nli,standard_correct_to_dialect_wrong,awadhi
+Airavata,NLI06,nli,standard_wrong_to_dialect_correct,awadhi
+Airavata,RC01,reading_comprehension,standard_correct_to_dialect_wrong,bhojpuri
+Airavata,RE01,reasoning,standard_wrong_to_dialect_correct,bhojpuri
+Airavata,RE01,reasoning,standard_wrong_to_dialect_correct,braj
+Airavata,RE01,reasoning,standard_wrong_to_dialect_correct,awadhi
+Airavata,RE05,reasoning,standard_wrong_to_dialect_correct,bhojpuri
+DeepSeek Chat,IF03,instruction_following,standard_correct_to_dialect_wrong,braj
+DeepSeek Chat,IF03,instruction_following,standard_correct_to_dialect_wrong,awadhi
+DeepSeek Chat,IF06,instruction_following,standard_correct_to_dialect_wrong,bhojpuri
+DeepSeek Chat,IF06,instruction_following,standard_correct_to_dialect_wrong,braj
+DeepSeek Chat,IF06,instruction_following,standard_correct_to_dialect_wrong,awadhi
+DeepSeek Chat,RC06,reading_comprehension,standard_correct_to_dialect_wrong,bhojpuri
+DeepSeek Chat,RE01,reasoning,standard_correct_to_dialect_wrong,awadhi
+GPT-OSS-120B,RC04,reading_comprehension,standard_correct_to_dialect_wrong,braj
+Gemma 2 9B IT,NLI02,nli,standard_correct_to_dialect_wrong,bhojpuri
+Gemma 2 9B IT,NLI02,nli,standard_correct_to_dialect_wrong,awadhi
+Llama 3.1 8B Instruct,IF01,instruction_following,standard_correct_to_dialect_wrong,bhojpuri
+Llama 3.1 8B Instruct,RC06,reading_comprehension,standard_correct_to_dialect_wrong,braj
+Llama 3.1 8B Instruct,RE01,reasoning,standard_wrong_to_dialect_correct,bhojpuri
+Llama 3.1 8B Instruct,RE01,reasoning,standard_wrong_to_dialect_correct,awadhi
+Llama 3.1 8B Instruct,RE02,reasoning,standard_correct_to_dialect_wrong,bhojpuri
+Llama 3.1 8B Instruct,RE02,reasoning,standard_correct_to_dialect_wrong,braj
+Llama 3.1 8B Instruct,RE02,reasoning,standard_correct_to_dialect_wrong,awadhi
+Llama 3.1 8B Instruct,RE03,reasoning,standard_correct_to_dialect_wrong,braj
+Llama 3.1 8B Instruct,RE03,reasoning,standard_correct_to_dialect_wrong,awadhi

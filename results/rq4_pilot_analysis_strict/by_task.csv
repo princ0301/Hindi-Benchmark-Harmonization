@@ -1,0 +1,26 @@
+model,task,correct,total,unparseable,accuracy,accuracy_percent,unparseable_percent
+Airavata,instruction_following,19,24,0,0.7916666666666666,79.16666666666666,0.0
+Airavata,knowledge_qa,0,24,0,0.0,0.0,0.0
+Airavata,nli,18,24,0,0.75,75.0,0.0
+Airavata,reading_comprehension,15,24,0,0.625,62.5,0.0
+Airavata,reasoning,8,24,0,0.3333333333333333,33.33333333333333,0.0
+DeepSeek Chat,instruction_following,15,24,9,0.625,62.5,37.5
+DeepSeek Chat,knowledge_qa,24,24,0,1.0,100.0,0.0
+DeepSeek Chat,nli,24,24,0,1.0,100.0,0.0
+DeepSeek Chat,reading_comprehension,23,24,1,0.9583333333333334,95.83333333333334,4.166666666666666
+DeepSeek Chat,reasoning,23,24,1,0.9583333333333334,95.83333333333334,4.166666666666666
+GPT-OSS-120B,instruction_following,12,24,12,0.5,50.0,50.0
+GPT-OSS-120B,knowledge_qa,24,24,0,1.0,100.0,0.0
+GPT-OSS-120B,nli,20,24,0,0.8333333333333334,83.33333333333334,0.0
+GPT-OSS-120B,reading_comprehension,23,24,1,0.9583333333333334,95.83333333333334,4.166666666666666
+GPT-OSS-120B,reasoning,24,24,0,1.0,100.0,0.0
+Gemma 2 9B IT,instruction_following,8,24,16,0.3333333333333333,33.33333333333333,66.66666666666666
+Gemma 2 9B IT,knowledge_qa,24,24,0,1.0,100.0,0.0
+Gemma 2 9B IT,nli,22,24,0,0.9166666666666666,91.66666666666666,0.0
+Gemma 2 9B IT,reading_comprehension,20,24,0,0.8333333333333334,83.33333333333334,0.0
+Gemma 2 9B IT,reasoning,24,24,0,1.0,100.0,0.0
+Llama 3.1 8B Instruct,instruction_following,11,24,8,0.4583333333333333,45.83333333333333,33.33333333333333
+Llama 3.1 8B Instruct,knowledge_qa,20,24,0,0.8333333333333334,83.33333333333334,0.0
+Llama 3.1 8B Instruct,nli,12,24,0,0.5,50.0,0.0
+Llama 3.1 8B Instruct,reading_comprehension,19,24,0,0.7916666666666666,79.16666666666666,0.0
+Llama 3.1 8B Instruct,reasoning,13,24,0,0.5416666666666666,54.166666666666664,0.0

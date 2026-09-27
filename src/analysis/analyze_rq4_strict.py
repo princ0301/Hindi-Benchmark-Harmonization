@@ -5,7 +5,7 @@ import pandas as pd
 
 from src.benchmarks.rq4_scorer_v2 import evaluate_rq4
 
-DATASET = Path("data/rq4_dialect/rq4_pilot_v0.1_clean.csv")
+DATASET = Path("data/rq4_dialect/rq4_full_v0.2_120_rows.csv")
 RAW_DIR = Path("results/raw_outputs")
 OUT_DIR = Path("results/rq4_pilot_analysis_strict")
 

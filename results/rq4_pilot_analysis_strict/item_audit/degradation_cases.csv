@@ -1,0 +1,54 @@
+model,item_id,task,transition,dialect,awadhi,bhojpuri,braj,standard_hindi,pattern,num_correct,pattern_type,variety,gold,correct,raw_output
+Airavata,IF06,instruction_following,standard_correct_to_dialect_wrong,braj,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,braj,A,0,B.
+Airavata,NLI02,nli,standard_correct_to_dialect_wrong,bhojpuri,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,bhojpuri,C,0,A
+Airavata,NLI02,nli,standard_correct_to_dialect_wrong,braj,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,braj,C,0,A
+Airavata,NLI02,nli,standard_correct_to_dialect_wrong,awadhi,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,awadhi,C,0,A
+Airavata,RC01,reading_comprehension,standard_correct_to_dialect_wrong,bhojpuri,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,bhojpuri,B,0,A
+DeepSeek Chat,IF03,instruction_following,standard_correct_to_dialect_wrong,braj,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,braj,A,0,YES
+DeepSeek Chat,IF03,instruction_following,standard_correct_to_dialect_wrong,awadhi,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,awadhi,A,0,YES
+DeepSeek Chat,IF06,instruction_following,standard_correct_to_dialect_wrong,bhojpuri,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,bhojpuri,A,0,YES
+DeepSeek Chat,IF06,instruction_following,standard_correct_to_dialect_wrong,braj,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,braj,A,0,YES
+DeepSeek Chat,IF06,instruction_following,standard_correct_to_dialect_wrong,awadhi,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,awadhi,A,0,YES
+DeepSeek Chat,RC06,reading_comprehension,standard_correct_to_dialect_wrong,bhojpuri,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,bhojpuri,B,0,"Let's break down the problem step by step to understand and find the correct answer.
+
+### Context in English:
+1. **Initial Statement**: ""Neha had three pencils.""
+   - This means Neha started with 3 pencils.
+
+2. **Action**: ""She gave one pencil to her sister.""
+   - Neha gave away 1 pencil to her sister.
+
+### Question in English:
+""How many pencils does Neha have left?""
+
+### Calculation:
+- **Initial pencils**: 3
+- **Pencils given away**: 1
+- **Pencils remaining**: 3 - 1 = 2
+
+### Options"
+DeepSeek Chat,RE01,reasoning,standard_correct_to_dialect_wrong,awadhi,0,1,1,1,1 | 1 | 1 | 0,3,standard_correct_dialect_failure,awadhi,B,0,"Let's break down the problem step by step to find out how many mangoes Ravi has left.
+
+1. **Initial number of mangoes Ravi has:**
+   - Ravi has 5 mangoes initially.
+   
+2. **Mangoes given to his brother:**
+   - He gives 2 mangoes to his brother.
+
+3. **Calculation of remaining mangoes:**
+   - Subtract the mangoes given away from the initial count.
+   - \( 5 \text{ (initial)} - 2 \text{ (given)} = 3 \text{ mangoes remaining} \)
+
+**Answer:**"
+GPT-OSS-120B,RC04,reading_comprehension,standard_correct_to_dialect_wrong,braj,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,braj,B,0,
+Gemma 2 9B IT,NLI02,nli,standard_correct_to_dialect_wrong,bhojpuri,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure,bhojpuri,C,0,"A. Entailment 
+"
+Gemma 2 9B IT,NLI02,nli,standard_correct_to_dialect_wrong,awadhi,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure,awadhi,C,0,"A. Entailment 
+"
+Llama 3.1 8B Instruct,IF01,instruction_following,standard_correct_to_dialect_wrong,bhojpuri,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure,bhojpuri,YES,0,NO
+Llama 3.1 8B Instruct,RC06,reading_comprehension,standard_correct_to_dialect_wrong,braj,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure,braj,B,0,C
+Llama 3.1 8B Instruct,RE02,reasoning,standard_correct_to_dialect_wrong,bhojpuri,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,bhojpuri,C,0,B
+Llama 3.1 8B Instruct,RE02,reasoning,standard_correct_to_dialect_wrong,braj,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,braj,C,0,B
+Llama 3.1 8B Instruct,RE02,reasoning,standard_correct_to_dialect_wrong,awadhi,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure,awadhi,C,0,B
+Llama 3.1 8B Instruct,RE03,reasoning,standard_correct_to_dialect_wrong,braj,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,braj,C,0,B
+Llama 3.1 8B Instruct,RE03,reasoning,standard_correct_to_dialect_wrong,awadhi,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure,awadhi,C,0,B

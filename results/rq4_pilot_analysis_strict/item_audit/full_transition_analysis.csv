@@ -1,0 +1,451 @@
+model,item_id,dialect,dialect_correct,standard_correct,transition
+Airavata,QA05,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI02,braj,0,1,standard_correct_to_dialect_wrong
+Airavata,RC01,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,RE04,braj,1,1,standard_correct_to_dialect_correct
+Airavata,IF01,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE02,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA01,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI02,bhojpuri,0,1,standard_correct_to_dialect_wrong
+Airavata,QA06,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF04,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,NLI06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI01,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,QA03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC06,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,IF03,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RE01,awadhi,1,0,standard_wrong_to_dialect_correct
+Airavata,RE02,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA04,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE06,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI06,awadhi,1,0,standard_wrong_to_dialect_correct
+Airavata,RE01,bhojpuri,1,0,standard_wrong_to_dialect_correct
+Airavata,RE03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA05,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF03,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,RC06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,NLI03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,IF03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,IF05,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,RC03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA01,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF06,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,IF04,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RE06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,IF01,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,NLI03,braj,1,1,standard_correct_to_dialect_correct
+Airavata,NLI02,awadhi,0,1,standard_correct_to_dialect_wrong
+Airavata,QA03,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI01,braj,1,1,standard_correct_to_dialect_correct
+Airavata,IF02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,RC04,braj,1,1,standard_correct_to_dialect_correct
+Airavata,QA03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE06,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC01,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RC03,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF06,braj,0,1,standard_correct_to_dialect_wrong
+Airavata,RC05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,QA01,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE03,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC02,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RE05,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA02,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,NLI04,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,QA02,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC06,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI03,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,IF02,braj,1,1,standard_correct_to_dialect_correct
+Airavata,IF01,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI05,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,IF02,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,NLI05,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RC05,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RC03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA02,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE01,braj,1,0,standard_wrong_to_dialect_correct
+Airavata,NLI06,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,QA04,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC01,bhojpuri,0,1,standard_correct_to_dialect_wrong
+Airavata,RC02,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,RE05,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,RC05,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,RE05,bhojpuri,1,0,standard_wrong_to_dialect_correct
+Airavata,QA05,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,NLI04,braj,1,1,standard_correct_to_dialect_correct
+Airavata,QA04,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,RC04,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,IF04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,QA06,awadhi,0,0,standard_wrong_to_dialect_wrong
+Airavata,RE04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Airavata,RE02,braj,0,0,standard_wrong_to_dialect_wrong
+Airavata,IF05,braj,1,1,standard_correct_to_dialect_correct
+Airavata,RE04,awadhi,1,1,standard_correct_to_dialect_correct
+Airavata,NLI01,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA05,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI02,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC01,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE04,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF01,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE02,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA01,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI02,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA06,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF04,awadhi,0,0,standard_wrong_to_dialect_wrong
+DeepSeek Chat,NLI06,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI01,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA03,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC06,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF06,bhojpuri,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,IF03,braj,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,RE01,awadhi,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,RE02,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA04,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE06,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI06,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE01,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE03,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA05,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE03,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF03,awadhi,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,RC06,bhojpuri,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,IF05,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI03,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF03,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF05,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC03,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA06,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA01,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF06,awadhi,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,IF04,braj,0,0,standard_wrong_to_dialect_wrong
+DeepSeek Chat,RE06,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC04,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF01,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC02,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI03,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI02,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA03,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI01,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF02,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC04,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA03,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE06,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC01,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC03,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF06,braj,0,1,standard_correct_to_dialect_wrong
+DeepSeek Chat,RC05,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA01,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE03,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC02,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE05,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA02,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI05,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI04,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA02,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC06,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI03,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF02,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF01,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI05,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF02,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI05,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC05,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC03,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA02,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE01,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI06,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA04,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC01,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC02,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE05,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI04,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC05,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE05,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA05,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI04,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,QA04,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RC04,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF04,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+DeepSeek Chat,QA06,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE04,bhojpuri,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE02,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,IF05,braj,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,RE04,awadhi,1,1,standard_correct_to_dialect_correct
+DeepSeek Chat,NLI01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI02,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC01,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE04,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF01,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE02,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI02,bhojpuri,0,1,standard_correct_to_dialect_wrong
+Gemma 2 9B IT,QA06,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF04,awadhi,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,NLI06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI01,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA03,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC06,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,IF03,braj,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,RE01,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE06,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI06,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE03,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA05,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,RC06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF05,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,NLI03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,IF05,awadhi,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,RC03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,QA06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA01,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF06,awadhi,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,IF04,braj,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,RE06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI03,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI02,awadhi,0,1,standard_correct_to_dialect_wrong
+Gemma 2 9B IT,QA03,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI01,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC04,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE06,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC01,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC03,braj,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,IF06,braj,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,RC05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA01,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE03,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC02,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE05,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA02,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI04,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA02,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC06,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI03,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF02,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF01,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI05,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF02,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI05,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC05,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,QA02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE01,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI06,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA04,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC02,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE05,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC05,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA05,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI04,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,QA04,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RC04,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF04,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,QA06,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,RE02,braj,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,IF05,braj,0,0,standard_wrong_to_dialect_wrong
+Gemma 2 9B IT,RE04,awadhi,1,1,standard_correct_to_dialect_correct
+Gemma 2 9B IT,NLI01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI02,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC01,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE04,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF01,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE02,awadhi,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,QA01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI02,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,QA06,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF04,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI01,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC06,braj,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,IF06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF03,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE01,awadhi,1,0,standard_wrong_to_dialect_correct
+Llama 3.1 8B Instruct,RE02,bhojpuri,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,QA04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE06,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI06,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE01,bhojpuri,1,0,standard_wrong_to_dialect_correct
+Llama 3.1 8B Instruct,RE03,awadhi,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,QA05,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF03,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF05,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,IF03,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF05,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,QA06,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA01,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF06,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF04,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RE06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF01,bhojpuri,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,RC02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI03,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI02,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,QA03,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI01,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF02,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC04,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RE06,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC01,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC03,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,IF06,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA01,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE03,braj,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,RC02,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE05,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA02,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI05,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI04,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA02,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC06,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI03,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,IF02,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,IF01,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI05,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,IF02,awadhi,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI05,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RC05,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,QA02,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE01,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,NLI06,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA04,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC01,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC02,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE05,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC05,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE05,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA05,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI04,braj,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,QA04,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RC04,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,IF04,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,QA06,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE04,bhojpuri,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,RE02,braj,0,1,standard_correct_to_dialect_wrong
+Llama 3.1 8B Instruct,IF05,braj,0,0,standard_wrong_to_dialect_wrong
+Llama 3.1 8B Instruct,RE04,awadhi,1,1,standard_correct_to_dialect_correct
+Llama 3.1 8B Instruct,NLI01,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA05,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI02,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC01,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE04,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF01,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE02,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA01,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI02,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA06,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF04,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI06,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI01,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA03,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC06,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF06,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,IF03,braj,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,RE01,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE02,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA04,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE06,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI06,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE01,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE03,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA05,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE03,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF03,awadhi,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,RC06,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF05,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,NLI03,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF03,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,IF05,awadhi,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,RC03,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA06,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA01,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF06,awadhi,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,IF04,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE06,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC04,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF01,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC02,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI03,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI02,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA03,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI01,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF02,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC04,braj,0,1,standard_correct_to_dialect_wrong
+GPT-OSS-120B,QA03,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE06,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC01,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC03,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF06,braj,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,RC05,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA01,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE03,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC02,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE05,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA02,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI05,bhojpuri,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,NLI04,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA02,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC06,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI03,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF02,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF01,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI05,awadhi,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,IF02,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI05,braj,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,RC05,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC03,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA02,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE01,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI06,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA04,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC01,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC02,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE05,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI04,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC05,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE05,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA05,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI04,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA04,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RC04,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF04,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,QA06,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE04,bhojpuri,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,RE02,braj,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,IF05,braj,0,0,standard_wrong_to_dialect_wrong
+GPT-OSS-120B,RE04,awadhi,1,1,standard_correct_to_dialect_correct
+GPT-OSS-120B,NLI01,bhojpuri,1,1,standard_correct_to_dialect_correct

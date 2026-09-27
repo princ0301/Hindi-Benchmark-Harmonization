@@ -1,0 +1,18 @@
+model,item_id,task,awadhi,bhojpuri,braj,standard_hindi,pattern,num_correct,pattern_type
+Airavata,IF06,instruction_following,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure
+Airavata,NLI02,nli,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure
+Airavata,NLI06,nli,1,0,0,0,0 | 0 | 0 | 1,1,standard_failure_dialect_success
+Airavata,RC01,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure
+Airavata,RE01,reasoning,1,1,1,0,0 | 1 | 1 | 1,3,standard_failure_dialect_success
+Airavata,RE05,reasoning,0,1,0,0,0 | 1 | 0 | 0,1,standard_failure_dialect_success
+DeepSeek Chat,IF03,instruction_following,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure
+DeepSeek Chat,IF06,instruction_following,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure
+DeepSeek Chat,RC06,reading_comprehension,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure
+DeepSeek Chat,RE01,reasoning,0,1,1,1,1 | 1 | 1 | 0,3,standard_correct_dialect_failure
+GPT-OSS-120B,RC04,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure
+Gemma 2 9B IT,NLI02,nli,0,0,1,1,1 | 0 | 1 | 0,2,standard_correct_dialect_failure
+Llama 3.1 8B Instruct,IF01,instruction_following,1,0,1,1,1 | 0 | 1 | 1,3,standard_correct_dialect_failure
+Llama 3.1 8B Instruct,RC06,reading_comprehension,1,1,0,1,1 | 1 | 0 | 1,3,standard_correct_dialect_failure
+Llama 3.1 8B Instruct,RE01,reasoning,1,1,0,0,0 | 1 | 0 | 1,2,standard_failure_dialect_success
+Llama 3.1 8B Instruct,RE02,reasoning,0,0,0,1,1 | 0 | 0 | 0,1,standard_correct_dialect_failure
+Llama 3.1 8B Instruct,RE03,reasoning,0,1,0,1,1 | 1 | 0 | 0,2,standard_correct_dialect_failure
