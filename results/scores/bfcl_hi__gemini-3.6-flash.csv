@@ -1,0 +1,23 @@
+item_id,gold,score
+live_simple_57-26-1,"{""todo_manager.handle_action"": {""type"": [""add""], ""content"": [""go to sleep at 9 pm""]}}",0.0
+live_simple_12-3-8,"{""get_current_weather"": {""location"": [""New York, NY""], ""unit"": [""celsius""]}}",1.0
+live_simple_140-93-0,"{""greet_partner"": {""user_name"": [""Emily""], ""partner_name"": [""Jeff""], ""relationship"": [""husband""]}}",0.0
+live_simple_62-29-2,"{""todo"": {""type"": [""delete""], ""content"": [""ravi""]}}",1.0
+live_simple_257-137-1,"{""answer_question"": {""statement"": [""Can you tell me what is the minimum package arrival time?""], ""urgency"": ["""", ""medium""], ""language"": ["""", ""en""]}}",0.0
+live_simple_35-12-0,"{""answer.string"": {""answer"": [""Sure, here is the answer to the question:\\n\\n**Logistic regression is not present in the text, therefore I cannot answer this question.**""]}}",0.0
+live_simple_188-113-0,"{""getDataForProfessional"": {""service_id"": [2], ""province_id"": [2], ""district_name"": [""Sankampang""], ""sub_district_name"": [""Ton Pao""], ""start_available_date"": ["""", null], ""end_available_date"": ["""", null], ""has_late_check_in"": ["""", false], ""rating"": [4.5]}}",0.0
+live_simple_26-6-0,"{""uber.ride"": {""loc"": [""123 Đường Đại học, Berkeley, CA""], ""type"": [""plus""], ""time"": [10]}}",0.0
+live_simple_173-99-7,"{""cmd_controller.execute"": {""command"": [""start calc""]}}",0.0
+live_simple_189-114-0,"{""extractor.extract_information"": {""data"": [[{""name"": [""Chester""], ""age"": [42]}, {""name"": [""Jane""], ""age"": [43]}]]}}",0.0
+live_simple_228-119-0,"{""text_to_speech.convert"": {""text"": [""I am a pretty girl""], ""language"": ["""", ""en-US""], ""gender"": ["""", ""female""], ""speed"": ["""", 1.0]}}",0.0
+live_simple_139-92-0,"{""requests.get"": {""url"": [""https://192.168.1.1/sedgeapi/v1/cisco-nir/api/api/v1/anomalies/summary""], ""params"": [{""fabric"": [""network222""], ""insightsGroup"": ["""", ""defaultInsightsGroup""]}]}}",1.0
+live_simple_22-5-0,"{""ChaFod"": {""TheFod"": [""BURGER""]}}",1.0
+live_simple_151-95-8,"{""cmd_controller.execute"": {""command"": [""netsh wlan disconnect""], ""unit"": ["""", ""N/A""]}}",1.0
+live_simple_108-65-0,"{""record"": {""money_movement_start"": [[""Can you show me all outgoing wire transfers?""]], ""get_transactions_start"": [[""I need to view all transactions labeled as \""checks\"" on my account."", ""Can you show me my recent Google Pay transactions?"", ""I would like to see the details of my most recent ATM withdrawal."", ""Can you give me a summary of my recent debit card transactions?""]], ""credit_limit_increase_start"": [[""I need my credit card limit raised."", ""Can you assist me in getting a higher credit card limit?""]], ""faq_link_accounts_start"": [[""Can you assist me in combining my personal and savings accounts?"", ""Please assist me in combining my accounts for a streamlined experience."", ""How can I link my auto loan and savings accounts?""]]}}",0.0
+live_simple_8-3-4,"{""get_current_weather"": {""location"": [""London, UK""], ""unit"": [""fahrenheit"", """"]}}",1.0
+live_simple_7-3-3,"{""get_current_weather"": {""location"": [""Riga, Latvia""], ""unit"": [""fahrenheit"", """"]}}",1.0
+live_simple_23-5-1,"{""ChaFod"": {""TheFod"": [""PIZZA""]}}",1.0
+live_simple_55-25-1,"{""todo"": {""type"": [""add""], ""content"": [""go for shopping at 9 pm""]}}",0.0
+live_simple_59-28-0,"{""get_movies"": {""city"": [""Mumbai""], ""cinema_hall"": ["""", null], ""movie_date"": ["""", null], ""movie_language"": ["""", null], ""movie_format"": ["""", ""2D""]}}",0.0
+live_simple_129-83-1,"{""requests.get"": {""url"": [""https://3.321.3232.2/sedgeapi/v1/cisco-nir/api/api/telemetry/flowrules/nodes?fabricName=fab-ed""], ""fabricName"": [""fab-ed""]}}",0.0
+live_simple_154-95-11,"{""cmd_controller.execute"": {""command"": [""start https://www.youtube.com/watch?v=dQw4w9WgXcQ""], ""unit"": ["""", ""N/A""]}}",1.0
