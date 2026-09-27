@@ -38,7 +38,6 @@ def _explicit_marker_answer(cleaned: str, gold_clean: str) -> str | None:
         hindi_marker = re.findall(
             r"(?:उत्तर|जवाब)\s*[:\-]?\s*(ए|बी|सी|डी)",
             cleaned,
-            flags=re.IGNORECASE,
         )
         if hindi_marker:
             return RQ4_HINDI_MCQ[hindi_marker[-1]]
@@ -56,13 +55,31 @@ def _explicit_marker_answer(cleaned: str, gold_clean: str) -> str | None:
     return None
 
 
+def _leading_option_answer(cleaned: str) -> str | None:
+    """Extract an MCQ label when it occurs at the start of the response.
+
+    This accepts natural model outputs such as `A. Entailment` or
+    `C) Contradiction`, while deliberately refusing arbitrary A/B/C/D letters
+    that occur later inside a reasoning trace.
+    """
+    match = re.match(r"^\s*\(?([ABCD])\s*[.)\-:]\s*", cleaned, flags=re.IGNORECASE)
+    if match:
+        return match.group(1).lower()
+
+    hindi_match = re.match(r"^\s*\(?([एबीसीडी])\s*[.)\-:]\s*", cleaned)
+    if hindi_match:
+        return RQ4_HINDI_MCQ[hindi_match.group(1)]
+
+    return None
+
+
 def extract_rq4_answer(model_output: str, gold: str) -> str | None:
     """Strict RQ4 extraction.
 
-    We never infer an answer from arbitrary letters/words inside a reasoning
-    trace. A verbose response is parseable only when it contains an explicit
-    answer marker followed by a valid answer. Bare answers such as `B`, `B.`,
-    `बी`, `YES`, and `NO` are also accepted.
+    Accepted MCQ forms include bare labels (`B`), leading option labels with
+    option text (`B. Entailment`), and explicit answer markers (`Answer: B`).
+    We never infer an answer from arbitrary letters appearing later in a
+    verbose reasoning trace.
     """
     cleaned = _clean_output(model_output)
     gold_clean = str(gold).strip().lower()
@@ -74,8 +91,11 @@ def extract_rq4_answer(model_output: str, gold: str) -> str | None:
     if explicit is not None:
         return explicit
 
-    # Bare MCQ answer only. Do not search arbitrary verbose text for A/B/C/D.
     if gold_clean in RQ4_MCQ:
+        leading = _leading_option_answer(cleaned)
+        if leading is not None:
+            return leading
+
         bare = re.fullmatch(r"\(?\s*([ABCD])\s*[.)]?\s*", cleaned, flags=re.IGNORECASE)
         if bare:
             return bare.group(1).lower()
