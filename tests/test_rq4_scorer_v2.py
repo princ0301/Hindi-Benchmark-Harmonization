@@ -17,6 +17,25 @@ def test_explicit_marker():
     assert evaluate_rq4("Answer: C", "B").status == "incorrect"
 
 
+def test_full_option_mcq():
+    assert evaluate_rq4("A. Entailment", "A").status == "correct"
+    assert evaluate_rq4("B. Neutral", "A").status == "incorrect"
+    assert evaluate_rq4("C. Contradiction", "C").status == "correct"
+
+
+def test_full_option_mcq_with_whitespace():
+    assert evaluate_rq4("A. Entailment \n", "A").status == "correct"
+
+
+def test_full_option_does_not_infer_from_reasoning():
+    output = """Let's consider the options.
+A. Entailment
+B. Neutral
+C. Contradiction
+The answer is unclear."""
+    assert evaluate_rq4(output, "A").status == "unparseable"
+
+
 def test_unparseable_answer_marker():
     output = """Let's solve it.\n5 - 2 = 3.\n\nAnswer:"""
     result = evaluate_rq4(output, "B")
