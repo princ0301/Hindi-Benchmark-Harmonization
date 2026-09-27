@@ -62,7 +62,7 @@ def load_rq4_dialect() -> list[BenchmarkItem]:
     rows = _load_csv()
     items: list[BenchmarkItem] = []
 
-    seen_ids: set[str] = set()
+    seen_ids: set[tuple[str, str]] = set()
     for row in rows:
         item_id = row["item_id"].strip()
         variety = row["variety"].strip()
@@ -70,9 +70,14 @@ def load_rq4_dialect() -> list[BenchmarkItem]:
 
         if not item_id:
             raise ValueError("RQ4 dataset contains an empty item_id")
-        if item_id in seen_ids:
-            raise ValueError(f"Duplicate RQ4 item_id: {item_id}")
-        seen_ids.add(item_id)
+        
+        instance_id = (item_id, variety)
+        if instance_id in seen_ids:
+            raise ValueError(
+                f"Duplicate RQ4 instance: item_id={item_id}, variety={variety}"
+            )
+
+        seen_ids.add(instance_id)
 
         context = row["context"].strip()
         question = row["question"].strip()

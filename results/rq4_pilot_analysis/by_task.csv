@@ -1,0 +1,26 @@
+model,task,correct,total,accuracy,accuracy_percent
+Airavata,instruction_following,4,8,0.5,50.0
+Airavata,knowledge_qa,0,8,0.0,0.0
+Airavata,nli,5,8,0.625,62.5
+Airavata,reading_comprehension,7,8,0.875,87.5
+Airavata,reasoning,3,8,0.375,37.5
+DeepSeek Chat,instruction_following,8,8,1.0,100.0
+DeepSeek Chat,knowledge_qa,8,8,1.0,100.0
+DeepSeek Chat,nli,8,8,1.0,100.0
+DeepSeek Chat,reading_comprehension,8,8,1.0,100.0
+DeepSeek Chat,reasoning,7,8,0.875,87.5
+GPT-OSS-120B,instruction_following,8,8,1.0,100.0
+GPT-OSS-120B,knowledge_qa,8,8,1.0,100.0
+GPT-OSS-120B,nli,8,8,1.0,100.0
+GPT-OSS-120B,reading_comprehension,8,8,1.0,100.0
+GPT-OSS-120B,reasoning,8,8,1.0,100.0
+Gemma 2 9B IT,instruction_following,8,8,1.0,100.0
+Gemma 2 9B IT,knowledge_qa,8,8,1.0,100.0
+Gemma 2 9B IT,nli,6,8,0.75,75.0
+Gemma 2 9B IT,reading_comprehension,8,8,1.0,100.0
+Gemma 2 9B IT,reasoning,8,8,1.0,100.0
+Llama 3.1 8B Instruct,instruction_following,3,8,0.375,37.5
+Llama 3.1 8B Instruct,knowledge_qa,8,8,1.0,100.0
+Llama 3.1 8B Instruct,nli,4,8,0.5,50.0
+Llama 3.1 8B Instruct,reading_comprehension,8,8,1.0,100.0
+Llama 3.1 8B Instruct,reasoning,3,8,0.375,37.5

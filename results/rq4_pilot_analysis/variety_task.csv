@@ -1,0 +1,101 @@
+model,variety,task,correct,total,accuracy,accuracy_percent
+Airavata,awadhi,instruction_following,1,2,0.5,50.0
+Airavata,awadhi,knowledge_qa,0,2,0.0,0.0
+Airavata,awadhi,nli,1,2,0.5,50.0
+Airavata,awadhi,reading_comprehension,2,2,1.0,100.0
+Airavata,awadhi,reasoning,1,2,0.5,50.0
+Airavata,bhojpuri,instruction_following,1,2,0.5,50.0
+Airavata,bhojpuri,knowledge_qa,0,2,0.0,0.0
+Airavata,bhojpuri,nli,1,2,0.5,50.0
+Airavata,bhojpuri,reading_comprehension,1,2,0.5,50.0
+Airavata,bhojpuri,reasoning,1,2,0.5,50.0
+Airavata,braj,instruction_following,1,2,0.5,50.0
+Airavata,braj,knowledge_qa,0,2,0.0,0.0
+Airavata,braj,nli,1,2,0.5,50.0
+Airavata,braj,reading_comprehension,2,2,1.0,100.0
+Airavata,braj,reasoning,1,2,0.5,50.0
+Airavata,standard_hindi,instruction_following,1,2,0.5,50.0
+Airavata,standard_hindi,knowledge_qa,0,2,0.0,0.0
+Airavata,standard_hindi,nli,2,2,1.0,100.0
+Airavata,standard_hindi,reading_comprehension,2,2,1.0,100.0
+Airavata,standard_hindi,reasoning,0,2,0.0,0.0
+DeepSeek Chat,awadhi,instruction_following,2,2,1.0,100.0
+DeepSeek Chat,awadhi,knowledge_qa,2,2,1.0,100.0
+DeepSeek Chat,awadhi,nli,2,2,1.0,100.0
+DeepSeek Chat,awadhi,reading_comprehension,2,2,1.0,100.0
+DeepSeek Chat,awadhi,reasoning,1,2,0.5,50.0
+DeepSeek Chat,bhojpuri,instruction_following,2,2,1.0,100.0
+DeepSeek Chat,bhojpuri,knowledge_qa,2,2,1.0,100.0
+DeepSeek Chat,bhojpuri,nli,2,2,1.0,100.0
+DeepSeek Chat,bhojpuri,reading_comprehension,2,2,1.0,100.0
+DeepSeek Chat,bhojpuri,reasoning,2,2,1.0,100.0
+DeepSeek Chat,braj,instruction_following,2,2,1.0,100.0
+DeepSeek Chat,braj,knowledge_qa,2,2,1.0,100.0
+DeepSeek Chat,braj,nli,2,2,1.0,100.0
+DeepSeek Chat,braj,reading_comprehension,2,2,1.0,100.0
+DeepSeek Chat,braj,reasoning,2,2,1.0,100.0
+DeepSeek Chat,standard_hindi,instruction_following,2,2,1.0,100.0
+DeepSeek Chat,standard_hindi,knowledge_qa,2,2,1.0,100.0
+DeepSeek Chat,standard_hindi,nli,2,2,1.0,100.0
+DeepSeek Chat,standard_hindi,reading_comprehension,2,2,1.0,100.0
+DeepSeek Chat,standard_hindi,reasoning,2,2,1.0,100.0
+GPT-OSS-120B,awadhi,instruction_following,2,2,1.0,100.0
+GPT-OSS-120B,awadhi,knowledge_qa,2,2,1.0,100.0
+GPT-OSS-120B,awadhi,nli,2,2,1.0,100.0
+GPT-OSS-120B,awadhi,reading_comprehension,2,2,1.0,100.0
+GPT-OSS-120B,awadhi,reasoning,2,2,1.0,100.0
+GPT-OSS-120B,bhojpuri,instruction_following,2,2,1.0,100.0
+GPT-OSS-120B,bhojpuri,knowledge_qa,2,2,1.0,100.0
+GPT-OSS-120B,bhojpuri,nli,2,2,1.0,100.0
+GPT-OSS-120B,bhojpuri,reading_comprehension,2,2,1.0,100.0
+GPT-OSS-120B,bhojpuri,reasoning,2,2,1.0,100.0
+GPT-OSS-120B,braj,instruction_following,2,2,1.0,100.0
+GPT-OSS-120B,braj,knowledge_qa,2,2,1.0,100.0
+GPT-OSS-120B,braj,nli,2,2,1.0,100.0
+GPT-OSS-120B,braj,reading_comprehension,2,2,1.0,100.0
+GPT-OSS-120B,braj,reasoning,2,2,1.0,100.0
+GPT-OSS-120B,standard_hindi,instruction_following,2,2,1.0,100.0
+GPT-OSS-120B,standard_hindi,knowledge_qa,2,2,1.0,100.0
+GPT-OSS-120B,standard_hindi,nli,2,2,1.0,100.0
+GPT-OSS-120B,standard_hindi,reading_comprehension,2,2,1.0,100.0
+GPT-OSS-120B,standard_hindi,reasoning,2,2,1.0,100.0
+Gemma 2 9B IT,awadhi,instruction_following,2,2,1.0,100.0
+Gemma 2 9B IT,awadhi,knowledge_qa,2,2,1.0,100.0
+Gemma 2 9B IT,awadhi,nli,1,2,0.5,50.0
+Gemma 2 9B IT,awadhi,reading_comprehension,2,2,1.0,100.0
+Gemma 2 9B IT,awadhi,reasoning,2,2,1.0,100.0
+Gemma 2 9B IT,bhojpuri,instruction_following,2,2,1.0,100.0
+Gemma 2 9B IT,bhojpuri,knowledge_qa,2,2,1.0,100.0
+Gemma 2 9B IT,bhojpuri,nli,1,2,0.5,50.0
+Gemma 2 9B IT,bhojpuri,reading_comprehension,2,2,1.0,100.0
+Gemma 2 9B IT,bhojpuri,reasoning,2,2,1.0,100.0
+Gemma 2 9B IT,braj,instruction_following,2,2,1.0,100.0
+Gemma 2 9B IT,braj,knowledge_qa,2,2,1.0,100.0
+Gemma 2 9B IT,braj,nli,2,2,1.0,100.0
+Gemma 2 9B IT,braj,reading_comprehension,2,2,1.0,100.0
+Gemma 2 9B IT,braj,reasoning,2,2,1.0,100.0
+Gemma 2 9B IT,standard_hindi,instruction_following,2,2,1.0,100.0
+Gemma 2 9B IT,standard_hindi,knowledge_qa,2,2,1.0,100.0
+Gemma 2 9B IT,standard_hindi,nli,2,2,1.0,100.0
+Gemma 2 9B IT,standard_hindi,reading_comprehension,2,2,1.0,100.0
+Gemma 2 9B IT,standard_hindi,reasoning,2,2,1.0,100.0
+Llama 3.1 8B Instruct,awadhi,instruction_following,1,2,0.5,50.0
+Llama 3.1 8B Instruct,awadhi,knowledge_qa,2,2,1.0,100.0
+Llama 3.1 8B Instruct,awadhi,nli,1,2,0.5,50.0
+Llama 3.1 8B Instruct,awadhi,reading_comprehension,2,2,1.0,100.0
+Llama 3.1 8B Instruct,awadhi,reasoning,1,2,0.5,50.0
+Llama 3.1 8B Instruct,bhojpuri,instruction_following,0,2,0.0,0.0
+Llama 3.1 8B Instruct,bhojpuri,knowledge_qa,2,2,1.0,100.0
+Llama 3.1 8B Instruct,bhojpuri,nli,1,2,0.5,50.0
+Llama 3.1 8B Instruct,bhojpuri,reading_comprehension,2,2,1.0,100.0
+Llama 3.1 8B Instruct,bhojpuri,reasoning,1,2,0.5,50.0
+Llama 3.1 8B Instruct,braj,instruction_following,1,2,0.5,50.0
+Llama 3.1 8B Instruct,braj,knowledge_qa,2,2,1.0,100.0
+Llama 3.1 8B Instruct,braj,nli,1,2,0.5,50.0
+Llama 3.1 8B Instruct,braj,reading_comprehension,2,2,1.0,100.0
+Llama 3.1 8B Instruct,braj,reasoning,0,2,0.0,0.0
+Llama 3.1 8B Instruct,standard_hindi,instruction_following,1,2,0.5,50.0
+Llama 3.1 8B Instruct,standard_hindi,knowledge_qa,2,2,1.0,100.0
+Llama 3.1 8B Instruct,standard_hindi,nli,1,2,0.5,50.0
+Llama 3.1 8B Instruct,standard_hindi,reading_comprehension,2,2,1.0,100.0
+Llama 3.1 8B Instruct,standard_hindi,reasoning,1,2,0.5,50.0

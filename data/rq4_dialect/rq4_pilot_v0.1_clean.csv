@@ -1,0 +1,41 @@
+﻿item_id,task,variety,context,question,options,gold_answer
+RC01,reading_comprehension,standard_hindi,रीना सुबह बाज़ार गई। उसने दो किलोग्राम सेब खरीदे और दोपहर से पहले घर लौट आई।,रीना ने क्या खरीदा?,A. दो किलोग्राम आम || B. दो किलोग्राम सेब || C. एक किलोग्राम सेब || D. दो किलोग्राम केले,B
+RC01,reading_comprehension,bhojpuri,रीना बिहान बाजार गइल। ऊ दू किलो सेव किनलस आ दुपहरिया से पहिले घरे लवट आइल।,रीना का किनलस?,A. दू किलो आम || B. दू किलो सेव || C. एक किलो सेव || D. दू किलो केला,B
+RC01,reading_comprehension,braj,रीना सवेरे बाजार गई। उसने दुई किलो सेब खरीदे अर दुपहर से पैलैं घर लौट आई।,रीना नै का खरीदे?,A. दुई किलो आम || B. दुई किलो सेब || C. एक किलो सेब || D. दुई किलो केले,B
+RC01,reading_comprehension,awadhi,रीना बिहान बाजार गई। उ दुई किलो सेब खरीदी अउर दुपहर से पहिले घर लौटि आई।,रीना का खरीदी?,A. दुई किलो आम || B. दुई किलो सेब || C. एक किलो सेब || D. दुई किलो केला,B
+RC02,reading_comprehension,standard_hindi,मोहन ने अपने घर के पास तीन पेड़ लगाए। एक पेड़ आम का था और बाकी दो नीम के थे।,मोहन ने कुल कितने पेड़ लगाए?,A. एक || B. दो || C. तीन || D. चार,C
+RC02,reading_comprehension,bhojpuri,मोहन अपना घर के लगे तीन गो पेड़ लगवलस। एगो पेड़ आम के रहे आ बाकी दू गो नीम के रहे।,मोहन कुल कतना गो पेड़ लगवलस?,A. एगो || B. दू गो || C. तीन गो || D. चार गो,C
+RC02,reading_comprehension,braj,मोहन नै अपने घर के पास तीन पेड़ लगाय। एक पेड़ आम को रहो अर बाकी दुई नीम के रहे।,मोहन नै कुल कित्ते पेड़ लगाय?,A. एक || B. दुई || C. तीन || D. चार,C
+RC02,reading_comprehension,awadhi,मोहन अपने घर के लगे तीन पेड़ लगाइस। एक पेड़ आम के रहा अउर बाकी दुई नीम के रहे।,मोहन कुल कितने पेड़ लगाइस?,A. एक || B. दुई || C. तीन || D. चार,C
+NLI01,nli,standard_hindi,महिला ने एक लाल साइकिल खरीदी।,महिला ने लाल साइकिल खरीदी।,A. Entailment || B. Neutral || C. Contradiction,A
+NLI01,nli,bhojpuri,मेहरारू एगो लाल साइकिल किनलस।,मेहरारू लाल साइकिल किनलस।,A. Entailment || B. Neutral || C. Contradiction,A
+NLI01,nli,braj,औरत नै एक लाल साइकिल खरीदी।,औरत नै लाल साइकिल खरीदी।,A. Entailment || B. Neutral || C. Contradiction,A
+NLI01,nli,awadhi,औरत एक लाल साइकिल खरीदी।,औरत लाल साइकिल खरीदी।,A. Entailment || B. Neutral || C. Contradiction,A
+NLI02,nli,standard_hindi,किसान के पास दो गायें हैं।,किसान के पास तीन गायें हैं।,A. Entailment || B. Neutral || C. Contradiction,C
+NLI02,nli,bhojpuri,किसान के लगे दू गो गाय बा।,किसान के लगे तीन गो गाय बा।,A. Entailment || B. Neutral || C. Contradiction,C
+NLI02,nli,braj,किसान के पास दुई गाय हैं।,किसान के पास तीन गाय हैं।,A. Entailment || B. Neutral || C. Contradiction,C
+NLI02,nli,awadhi,किसान क लगे दुई गाय अहैं।,किसान क लगे तीन गाय अहैं।,A. Entailment || B. Neutral || C. Contradiction,C
+QA01,knowledge_qa,standard_hindi,,भारत की राजधानी क्या है?,A. मुंबई || B. नई दिल्ली || C. जयपुर || D. लखनऊ,B
+QA01,knowledge_qa,bhojpuri,,भारत के राजधानी का ह?,A. मुंबई || B. नई दिल्ली || C. जयपुर || D. लखनऊ,B
+QA01,knowledge_qa,braj,,भारत की राजधानी का है?,A. मुंबई || B. नई दिल्ली || C. जयपुर || D. लखनऊ,B
+QA01,knowledge_qa,awadhi,,भारत की राजधानी का है?,A. मुंबई || B. नई दिल्ली || C. जयपुर || D. लखनऊ,B
+QA02,knowledge_qa,standard_hindi,,एक सप्ताह में कितने दिन होते हैं?,A. पाँच || B. छह || C. सात || D. आठ,C
+QA02,knowledge_qa,bhojpuri,,एगो हफ्ता में कतना दिन होला?,A. पाँच || B. छह || C. सात || D. आठ,C
+QA02,knowledge_qa,braj,,एक हफ्ता में कित्ते दिन होत हैं?,A. पाँच || B. छह || C. सात || D. आठ,C
+QA02,knowledge_qa,awadhi,,एक हफ्ता मा कितने दिन होत हैं?,A. पाँच || B. छह || C. सात || D. आठ,C
+RE01,reasoning,standard_hindi,रवि के पास 5 आम हैं। वह अपने भाई को 2 आम दे देता है।,उसके पास कितने आम बचते हैं?,A. 2 || B. 3 || C. 4 || D. 7,B
+RE01,reasoning,bhojpuri,रवि के लगे 5 गो आम बा। ऊ अपना भाई के 2 गो आम दे देला।,ओकरा लगे कतना आम बचेला?,A. 2 || B. 3 || C. 4 || D. 7,B
+RE01,reasoning,braj,रवि के पास 5 आम हैं। वह अपने भैया कू 2 आम दे देत है।,उसके पास कित्ते आम बचत हैं?,A. 2 || B. 3 || C. 4 || D. 7,B
+RE01,reasoning,awadhi,रवि क लगे 5 आम अहैं। उ अपने भइया क 2 आम दे देत है।,ओकर लगे कितने आम बचत हैं?,A. 2 || B. 3 || C. 4 || D. 7,B
+RE02,reasoning,standard_hindi,"तीन डिब्बे हैं: लाल, नीला और हरा। लाल डिब्बा नीले डिब्बे से भारी है और नीला डिब्बा हरे डिब्बे से भारी है।",सबसे हल्का डिब्बा कौन-सा है?,A. लाल || B. नीला || C. हरा || D. पता नहीं,C
+RE02,reasoning,bhojpuri,"तीन गो डिब्बा बा—लाल, नीला आ हरा। लाल डिब्बा नीला डिब्बा से भारी बा आ नीला डिब्बा हरा डिब्बा से भारी बा।",सबसे हल्का डिब्बा कवन बा?,A. लाल || B. नीला || C. हरा || D. पता नइखे,C
+RE02,reasoning,braj,"तीन डिब्बे हैं—लाल, नीला अर हरा। लाल डिब्बो नीले डिब्बे तैं भारी है अर नीला डिब्बो हरे डिब्बे तैं भारी है।",सबसे हलको डिब्बो कौन है?,A. लाल || B. नीला || C. हरा || D. पता नाय,C
+RE02,reasoning,awadhi,"तीन डिब्बा अहैं—लाल, नीला अउर हरा। लाल डिब्बा नीला डिब्बा से भारी अहै अउर नीला डिब्बा हरा डिब्बा से भारी अहै।",सबसे हलका डिब्बा कउन है?,A. लाल || B. नीला || C. हरा || D. पता नाहीं,C
+IF01,instruction_following,standard_hindi,कौआ पेड़ पर बैठा है।,Read the sentence and answer only YES or NO. Is the mentioned animal a bird?,YES || NO,YES
+IF01,instruction_following,bhojpuri,कौआ पेड़ पर बइठल बा।,Read the sentence and answer only YES or NO. Is the mentioned animal a bird?,YES || NO,YES
+IF01,instruction_following,braj,कौआ पेड़ पै बैठो है।,Read the sentence and answer only YES or NO. Is the mentioned animal a bird?,YES || NO,YES
+IF01,instruction_following,awadhi,कौआ पेड़ प बइठा है।,Read the sentence and answer only YES or NO. Is the mentioned animal a bird?,YES || NO,YES
+IF02,instruction_following,standard_hindi,सीता ने दो आम और तीन केले खरीदे।,Read the sentence and answer only with the number of fruits mentioned.,5,5
+IF02,instruction_following,bhojpuri,सीता दू गो आम आ तीन गो केला किनलस।,Read the sentence and answer only with the number of fruits mentioned.,5,5
+IF02,instruction_following,braj,सीता नै दुई आम अर तीन केले खरीदे।,Read the sentence and answer only with the number of fruits mentioned.,5,5
+IF02,instruction_following,awadhi,सीता दुई आम अउर तीन केला खरीदी।,Read the sentence and answer only with the number of fruits mentioned.,5,5
