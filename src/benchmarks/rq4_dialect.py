@@ -6,7 +6,7 @@ from pathlib import Path
 from src.benchmarks.loader import BenchmarkItem, register
 
 
-DATASET_PATH = Path("data/rq4_dialect/rq4_pilot_v0.1_clean.csv")
+DATASET_PATH = Path("data/rq4_dialect/rq4_full_v0.2_120_rows.csv")
 
 
 PROMPT_TEMPLATE = """You are evaluating a Hindi-language benchmark item.
@@ -32,7 +32,7 @@ def _load_csv() -> list[dict[str, str]]:
     if not DATASET_PATH.exists():
         raise FileNotFoundError(
             f"RQ4 dataset not found at {DATASET_PATH}. "
-            "Add the cleaned pilot CSV before running the benchmark."
+            "Add the full RQ4 CSV before running the benchmark."
         )
 
     with DATASET_PATH.open("r", encoding="utf-8-sig", newline="") as f:
@@ -70,13 +70,12 @@ def load_rq4_dialect() -> list[BenchmarkItem]:
 
         if not item_id:
             raise ValueError("RQ4 dataset contains an empty item_id")
-        
+
         instance_id = (item_id, variety)
         if instance_id in seen_ids:
             raise ValueError(
                 f"Duplicate RQ4 instance: item_id={item_id}, variety={variety}"
             )
-
         seen_ids.add(instance_id)
 
         context = row["context"].strip()
