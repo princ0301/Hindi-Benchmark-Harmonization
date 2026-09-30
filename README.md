@@ -14,7 +14,6 @@ This repository implements a unified evaluation pipeline that tests various Larg
   - `datasets` — HuggingFace dataset loading and management
   - `tenacity` — Automatic retry logic with exponential backoff
   - `pandas` — Result aggregation and analysis
-  - `google-genai`, `groq`, `openai`, `together`, `modal` — LLM API clients for inference
 
 ## Repository Structure
 
@@ -76,26 +75,11 @@ This repository implements a unified evaluation pipeline that tests various Larg
 | **ChatRAG** | RAG Conversations | Hindi | - |
 | **RQ4 Dialect** | Regional Varieties | Hindi (Standard, Bhojpuri, Braj, Awadhi) | 40 samples each |
 
-### Supported Models
-
-**API-Based:**
-- Gemini (Google)
-- Groq OpenAI compatible
-- OpenRouter (DeepSeek, etc.)
-- NVIDIA NIM (Gemma, Llama)
-- Together AI
-- Ollama (local)
-
-**Local GPU:**
-- Meta Llama 3.1 8B
-- Google Gemma 2 9B
-- AI4Bharat Airavata
-
 ### Scoring Methods
 
 - **Exact Match** — Character-level comparison with normalization
 - **BLEU Score** — N-gram overlap metric for generation tasks
-- **LLM Judge** — Using local Ollama for semantic evaluation
+- **LLM Judge** — Using Gemma4:31B model for semantic evaluation
 - **MCQ Extraction** — Robust A/B/C/D answer extraction with fuzzy matching
 - **YES/NO Detection** — Binary answer normalization
 - **Numeric Matching** — Integer answer comparison
@@ -122,33 +106,6 @@ uv sync
 
 # Or with pip
 pip install -e .
-```
-
-### Environment Variables
-
-Create a `.env` file with API keys:
-
-```bash
-# Google Gemini
-GOOGLE_API_KEY=your_key_here
-
-# Groq
-GROQ_API_KEY=your_key_here
-
-# OpenRouter
-OPENROUTER_API_KEY=your_key_here
-
-# NVIDIA NIM
-NVIDIA_API_KEY=your_key_here
-
-# Together AI
-TOGETHER_API_KEY=your_key_here
-
-# HuggingFace (for dataset access)
-HF_TOKEN=your_token_here
-
-# Cerebras (optional)
-CEREBRAS_API_KEY=your_key_here
 ```
 
 ### Run Benchmark Evaluation
@@ -308,31 +265,6 @@ if benchmark_name == "my_benchmark_hi":
 - "How do I add support for a new Hindi benchmark dataset?"
 - "What's the accuracy difference between Gemma and Llama on IndicSentiment across regional dialects?"
 - "How do I run offline evaluation with locally hosted models via Ollama?"
-
-## License
-
-[Add your license here]
-
-## Citation
-
-If you use this framework, please cite:
-
-```bibtex
-@software{hindi_benchmark_harmonization,
-  author = {princ0301},
-  title = {Hindi Benchmark Harmonization},
-  url = {https://github.com/princ0301/Hindi-Benchmark-Harmonization},
-  year = {2026}
-}
-```
-
-## Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new benchmarks/models
-4. Submit a pull request
 
 ## Support
 
